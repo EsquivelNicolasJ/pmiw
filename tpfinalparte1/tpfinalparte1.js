@@ -3,7 +3,7 @@ let estado= 'PantallaInicio';
 
 function preload(){
   for (let i=0; i<18; i++) {
-    ElCohete[i]=loadImage('data/elcohete'+i+'.png');
+    ElCohete[i]=loadImage('data/elcohete'+i+'.jpg');
   }
 }
 function setup() {
