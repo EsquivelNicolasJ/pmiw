@@ -2,7 +2,7 @@
 let estado= 'PantallaInicio';
 
 function preload(){
-  for (let i=0; i<18; i++) {
+  for (let i=0; i<19; i++) {
     ElCohete[i]=loadImage('data/elcohete'+i+'.jpg');
   }
 }
@@ -87,8 +87,12 @@ if (estado === 'FinalFinal1'){
 background(255);
 image(ElCohete[17],0,0);
 }
+if (estado === 'Portada'){
+background(255);
+image(ElCohete[18],0,0);
+}
 }
 function mousePressed(){
-  estado =('FinalFinal1'); //puesto a modo de pueba para probar las imagenes estado por estado al hacer click. 
+  estado =('Portada'); //puesto a modo de pueba para probar las imagenes estado por estado al hacer click. 
 
 }
