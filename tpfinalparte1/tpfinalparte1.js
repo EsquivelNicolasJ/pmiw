@@ -17,6 +17,8 @@ function draw() {
  if  (estado === 'PantallaInicio'){
  background(255);
    image(ElCohete[0],0,0);
+   texto
+   boton
  }
  if (estado === "Final01"){
     background(255);
@@ -82,6 +84,7 @@ image(ElCohete[15],0,0);
 if (estado === 'FinalFinal0'){
 background(255);
 image(ElCohete[16],0,0);
+
 }
 if (estado === 'FinalFinal1'){
 background(255);
@@ -91,6 +94,11 @@ if (estado === 'Portada'){
 background(255);
 image(ElCohete[18],0,0);
 }
+function Botoncito(){
+
+
+}
+
 }
 function mousePressed(){
   estado =('Portada'); //puesto a modo de pueba para probar las imagenes estado por estado al hacer click. 
